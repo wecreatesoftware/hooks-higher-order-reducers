@@ -1,0 +1,16 @@
+*.iml
+.idea
+.junk
+coverage
+package-lock.json
+yarn.lock
+node_modules
+*.log
+.DS_Store
+dist
+demo/bundle.js
+esm
+lib
+commonjs
+umd
+docs

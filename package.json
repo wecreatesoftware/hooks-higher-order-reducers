@@ -1,0 +1,63 @@
+{
+    "name": "@wecreatesoftware/hooks-higher-order-reducers",
+    "version": "1.0.0",
+    "description": "Generic higher order reducers for useReducer hook.",
+    "main": "dist/hooks.higher.order.reducers.js",
+    "jsnext:main": "dist/hooks.higher.order.reducers.es.js",
+    "module": "dist/hooks.higher.order.reducers.es.js",
+    "esnext": "src/wecreate/software/hooks.higher.order.reducers.js",
+    "sideEffects": false,
+    "scripts": {
+        "clean": "rimraf dist docs",
+        "build": "npm run healthcheck && npm run clean && npm run esdoc && npm run rollup",
+        "esdoc": "esdoc",
+        "esdoc:open": "npm run esdoc && open ./docs/index.html",
+        "healthcheck": "npm run lint && npm run test",
+        "lint": "eslint src",
+        "lint:fix": "eslint src --fix",
+        "prepublish": "npm run build",
+        "rollup": "rollup -c rollup.config.js",
+        "test": "jest",
+        "update": "ncu -u && npm i && npm run healthcheck"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wecreatesoftware/hooks-higher-order-reducers"
+    },
+    "keywords": [
+        "react",
+        "redux",
+        "react-redux",
+        "reducers",
+        "higher order reducers",
+        "reuseable reducers"
+    ],
+    "author": "Matt Struensee <matt@wecreate.software>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "7.5.5",
+        "@babel/core": "7.5.5",
+        "@babel/plugin-external-helpers": "7.2.0",
+        "@babel/plugin-proposal-object-rest-spread": "7.5.5",
+        "@babel/preset-env": "7.5.5",
+        "@babel/preset-react": "7.0.0",
+        "@babel/register": "7.5.5",
+        "@testing-library/react-hooks": "2.0.1",
+        "@wecreatesoftware/eslint-config": "1.2.10",
+        "babel-jest": "24.8.0",
+        "babel-loader": "8.0.6",
+        "babelrc-rollup": "3.0.0",
+        "coveralls": "3.0.6",
+        "esdoc": "1.1.0",
+        "esdoc-ecmascript-proposal-plugin": "1.0.0",
+        "esdoc-standard-plugin": "1.0.0",
+        "jest": "24.8.0",
+        "npm-check-updates": "3.1.20",
+        "react": "16.9.0",
+        "react-test-renderer": "16.9.0",
+        "rimraf": "2.6.3",
+        "rollup": "1.19.4",
+        "rollup-plugin-babel": "4.3.3",
+        "rollup-plugin-terser": "5.1.1"
+    }
+}
