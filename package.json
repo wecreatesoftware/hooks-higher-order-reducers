@@ -26,11 +26,10 @@
     },
     "keywords": [
         "react",
-        "redux",
-        "react-redux",
         "reducers",
         "higher order reducers",
-        "reuseable reducers"
+        "reuseable reducers",
+        "hooks"
     ],
     "author": "Matt Struensee <matt@wecreate.software>",
     "license": "MIT",
