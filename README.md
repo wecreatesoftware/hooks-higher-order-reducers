@@ -8,7 +8,7 @@
 [![Downloads](https://img.shields.io/npm/dt/@wecreatesoftware/hooks-higher-order-reducers.svg)](https://www.npmjs.com/package/@wecreatesoftware/hooks-higher-order-reducers)
 [![dependabot](https://api.dependabot.com/badges/status?host=github&repo=wecreatesoftware/hooks-higher-order-reducers)](https://dependabot.com/)
 
-###This is a hook version of [redux-higher-order-reducers](https://www.npmjs.com/package/@wecreatesoftware/redux-higher-order-reducers)
+#### This is a hook version of [redux-higher-order-reducers](https://www.npmjs.com/package/@wecreatesoftware/redux-higher-order-reducers)
 
 https://redux.js.org/recipes/structuring-reducers/reusing-reducer-logic
 
